@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victor Gabriel de Sousa | Desenvolvedor Web</title>
+<meta name="description" content="Portfólio de Victor Gabriel de Sousa, estudante de Informática para Internet, em formação como desenvolvedor web.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid" aria-hidden="true"></div>
+
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <span class="logo">VG<span class="logo-dot">.</span>dev</span>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#sobre">sobre</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projetos">projetos</a></li>
+      <li><a href="#contato" class="nav-cta">contato</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="topo">
+  <div class="hero-inner">
+    <p class="terminal-line"><span class="prompt">victor@dev</span><span class="path">:~$</span> <span class="typed" id="typedText"></span><span class="cursor">|</span></p>
+
+    <h1 class="hero-title">
+      Victor Gabriel<br><span class="grad-text">de Sousa</span>
+    </h1>
+    <p class="hero-subtitle">Estudante de Informática para Internet · Futuro Desenvolvedor Web</p>
+
+    <div class="hero-tags">
+      <span class="tag">Estágio na InteragiTI</span>
+      <span class="tag">Estudando Inglês</span>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+      <a href="#contato" class="btn btn-ghost">Falar comigo</a>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <div class="photo-frame">
+      <img src="imgPorte.jpeg" alt="Foto de Victor Gabriel de Sousa" class="hero-photo">
+    </div>
+    <div class="code-chip chip-1">&lt;/&gt;</div>
+    <div class="code-chip chip-2">{ }</div>
+  </div>
+</header>
+
+<main>
+
+<section id="sobre" class="section">
+  <div class="section-head">
+    <span class="eyebrow">// sobre</span>
+    <h2>Quem sou eu</h2>
+  </div>
+  <div class="about-grid">
+    <p class="about-text">
+      Sou o Victor, estudante do curso técnico de <strong>Informática para Internet</strong> integrado ao ensino médio.
+      Atualmente faço estágio na <strong>InteragiTI</strong>, onde coloco em prática o que aprendo em sala de aula, e também
+      estudo inglês para ampliar minhas oportunidades na área de tecnologia. Gosto de transformar problemas reais em
+      sistemas funcionais — já passei por desenvolvimento web com PHP e banco de dados, e também por design de interfaces
+      no Figma. Estou sempre em busca de aprender mais e construir projetos que façam sentido para quem vai usá-los.
+    </p>
+    <div class="about-stats">
+      <div class="stat-card">
+        <span class="stat-num">3+</span>
+        <span class="stat-label">Projetos práticos desenvolvidos</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">2</span>
+        <span class="stat-label">Linguagens de back-end (PHP &amp; C#)</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-num">1</span>
+        <span class="stat-label">Estágio em andamento na InteragiTI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-head">
+    <span class="eyebrow">// stack</span>
+    <h2>Tecnologias que utilizo</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card"><span class="skill-tag">HTML5</span></div>
+    <div class="skill-card"><span class="skill-tag">CSS3</span></div>
+    <div class="skill-card"><span class="skill-tag">JavaScript</span></div>
+    <div class="skill-card"><span class="skill-tag">PHP</span></div>
+    <div class="skill-card"><span class="skill-tag">C#</span></div>
+    <div class="skill-card"><span class="skill-tag">MySQL</span></div>
+  </div>
+</section>
+
+<section id="projetos" class="section">
+  <div class="section-head">
+    <span class="eyebrow">// projetos</span>
+    <h2>O que eu já construí</h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <article class="project-card">
+      <div class="project-top">
+        <span class="project-index">01</span>
+        <span class="project-type">Sistema Web</span>
+      </div>
+      <h3>Tela de Login com CRUD</h3>
+      <p>Sistema de autenticação completo com operações de cadastro, leitura, atualização e exclusão de usuários.</p>
+      <div class="project-stack">
+        <span>PHP</span><span>HTML</span><span>CSS</span><span>phpMyAdmin</span>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-top">
+        <span class="project-index">02</span>
+        <span class="project-type">Sistema Web</span>
+      </div>
+      <h3>Sistema de Biblioteca</h3>
+      <p>Plataforma para gestão de acervo e empréstimos de livros, com banco de dados integrado.</p>
+      <div class="project-stack">
+        <span>HTML</span><span>CSS</span><span>JS</span><span>PHP</span><span>phpMyAdmin</span>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-top">
+        <span class="project-index">03</span>
+        <span class="project-type">UI/UX Design</span>
+      </div>
+      <h3>Protótipo · Escola de Artes Marciais</h3>
+      <p>Protótipo de alta fidelidade no Figma para uma escola de artes marciais, com foco em experiência do usuário.</p>
+      <div class="project-stack">
+        <span>Figma</span><span>UI Design</span><span>Prototipagem</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="contato" class="section contact-section">
+  <div class="section-head">
+    <span class="eyebrow">// contato</span>
+    <h2>Vamos conversar?</h2>
+    <p class="contact-sub">Estou disponível para estágios, projetos e oportunidades na área de tecnologia.</p>
+  </div>
+
+  <div class="contact-grid">
+    <a class="contact-card" href="mailto:victorgabriel8135@gmail.com">
+      <span class="contact-icon" aria-hidden="true">&#9993;</span>
+      <span class="contact-label">E-mail</span>
+      <span class="contact-value">victorgabriel8135@gmail.com</span>
+    </a>
+
+    <a class="contact-card" href="https://wa.me/5519996632781" target="_blank" rel="noopener">
+      <span class="contact-icon" aria-hidden="true">&#9742;</span>
+      <span class="contact-label">WhatsApp</span>
+      <span class="contact-value">(19) 99663-2781</span>
+    </a>
+
+    <a class="contact-card" href="https://www.linkedin.com/in/victor-gabriel-sousa" target="_blank" rel="noopener">
+      <span class="contact-icon" aria-hidden="true">in</span>
+      <span class="contact-label">LinkedIn</span>
+      <span class="contact-value">/victor-gabriel-sousa</span>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Victor Gabriel de Sousa — feito com HTML, CSS &amp; JS.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
