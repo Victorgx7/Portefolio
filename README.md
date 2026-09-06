@@ -1,45 +1,47 @@
-# Portfólio — Victor Gabriel
+# 👨‍💻 Portfólio — Victor Gabriel
 
 Portfólio pessoal desenvolvido para apresentar minha formação, habilidades e projetos na área de desenvolvimento web.
 
-## 🎯 Objetivo
+## 🎯 Sobre o projeto
 
-Criar uma apresentação profissional da minha trajetória como estudante de Informática para Internet e reunir projetos práticos desenvolvidos durante minha formação e experiência de estágio.
+Este projeto funciona como uma apresentação profissional e reúne trabalhos desenvolvidos durante minha formação e experiência prática.
 
 ## 🛠️ Tecnologias
 
-- HTML5
-- CSS3
-- JavaScript
-- UI/UX
-- PHP
-- C#
-- MySQL
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![C%23](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=csharp&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-## 📌 Projetos apresentados
+## 📌 Projetos em destaque
 
-- Sistema de Login com CRUD
-- Sistema de Biblioteca
-- Protótipo de escola de artes marciais desenvolvido no Figma
+- **Login com CRUD** — PHP, HTML, CSS e MySQL
+- **Sistema de Biblioteca** — HTML, CSS, JavaScript, PHP e MySQL
+- **A Toca Jiu-Jitsu** — Figma, UI/UX, HTML, CSS e JavaScript
+- **Projetos de interfaces e protótipos** — Figma e desenvolvimento front-end
 
-## 💡 Destaques
+## 💡 O que este projeto demonstra
 
-- Layout responsivo
-- Navegação por seções
-- Apresentação de stack e projetos
-- Área de contato
-- Interface com identidade visual própria
+- Desenvolvimento de interfaces responsivas
+- Organização de projetos front-end
+- UI/UX e prototipação
+- Integração entre front-end, back-end e banco de dados
+- Apresentação de projetos de forma profissional
 
 ## 🚀 Como executar
 
-1. Clone este repositório.
-2. Abra o arquivo `index.html` no navegador.
-3. Para desenvolvimento local, utilize uma extensão como Live Server no VS Code.
+1. Clone o repositório.
+2. Abra `index.html` no navegador.
+3. Para desenvolvimento local, recomenda-se utilizar o Live Server no VS Code.
 
-## 👨‍💻 Sobre
+## 👨‍💻 Sobre mim
 
-Victor Gabriel é estudante de Técnico em Informática para Internet integrado ao Ensino Médio, com foco em desenvolvimento web, sistemas e banco de dados.
+Sou estudante de Técnico em Informática para Internet integrado ao Ensino Médio, com interesse em desenvolvimento web, sistemas, banco de dados e UI/UX.
+
+Meu objetivo é continuar desenvolvendo projetos práticos, evoluir tecnicamente e iniciar minha carreira profissional na área de tecnologia.
 
 ---
 
-⭐ Este projeto faz parte do meu portfólio de estudos e desenvolvimento profissional.
+⭐ Se algum projeto chamou sua atenção, fique à vontade para explorar o código.
